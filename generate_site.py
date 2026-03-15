@@ -171,7 +171,7 @@ def generate_html(config, rows, build_info):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{page_title} - SimulationCraft tier set comparison results">
+  <meta name="description" content="SimulationCraft tier set comparison results">
   <title>{page_title}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
