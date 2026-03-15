@@ -1,0 +1,8 @@
+warlock="4p"
+level=80
+race=orc
+role=spell
+specs=affliction
+gear_ilvl=600
+
+profileset."0p"+=level=80
