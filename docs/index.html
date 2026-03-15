@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Midnight Season 1 Tier Sims - SimulationCraft tier set comparison results">
+  <title>Midnight Season 1 Tier Sims</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #1a1a2e;
+      color: #e0e0e0;
+      line-height: 1.6;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+
+    .disclaimer {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+      font-size: 0.875rem;
+      color: #a0a0b0;
+    }
+
+    .build-info {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 2rem;
+    }
+
+    .build-info a {
+      color: #6d9eeb;
+      text-decoration: none;
+    }
+
+    .build-info a:hover {
+      text-decoration: underline;
+    }
+
+    .table-section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #ccccdd;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 0.6rem 0.75rem;
+      font-weight: 600;
+      color: #b0b0c0;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+      white-space: nowrap;
+    }
+
+    thead th.num {
+      text-align: right;
+    }
+
+    tbody td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    td.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    tbody tr:hover {
+      background-color: rgba(255, 255, 255, 0.04);
+    }
+
+    .spec-link {
+      text-decoration: none;
+    }
+
+    .spec-link:hover {
+      text-decoration: underline;
+    }
+
+    th {
+      cursor: pointer;
+      user-select: none;
+      position: relative;
+    }
+
+    th:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    th.sort-asc::after {
+      content: " ▲";
+      font-size: 0.7em;
+      opacity: 0.7;
+      margin-left: 4px;
+    }
+
+    th.sort-desc::after {
+      content: " ▼";
+      font-size: 0.7em;
+      opacity: 0.7;
+      margin-left: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Midnight Season 1 Tier Sims</h1>
+    <div class="disclaimer">
+      ⚠️ Some specs or tier sets may not be fully implemented in SimulationCraft.
+    </div>
+
+    <div class="build-info">
+      <strong>SimC Build:</strong> Mar 14 2026 03:32:02 &middot; Revision: <a href="https://github.com/simulationcraft/simc/commit/906ed30" target="_blank" rel="noopener">906ed30</a>
+    </div>
+  </header>
+  <main>
+
+    <div class="table-section">
+      <h2>Cloth</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Spec</th>
+              <th class="num">0p DPS</th>
+              <th class="num">2p DPS</th>
+              <th class="num">4p DPS</th>
+              <th class="num">0p → 2p</th>
+              <th class="num">2p → 4p</th>
+              <th class="num">0p → 4p</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><a href="MID1_Warlock_Demonology_Soul_Harvester.html" target="_blank" rel="noopener" class="spec-link" style="color: #8788EE">MID1_Warlock_Demonology_Soul_Harvester</a></td>
+          <td class="num">125,069</td>
+          <td class="num">125,510</td>
+          <td class="num">126,801</td>
+          <td class="num"><span style="color: #4ade80">+441</span></td>
+          <td class="num"><span style="color: #4ade80">+1,291</span></td>
+          <td class="num"><span style="color: #4ade80">+1,732</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Mage_Frost.html" target="_blank" rel="noopener" class="spec-link" style="color: #3FC7EB">MID1_Mage_Frost</a></td>
+          <td class="num">110,726</td>
+          <td class="num">112,008</td>
+          <td class="num">114,810</td>
+          <td class="num"><span style="color: #4ade80">+1,282</span></td>
+          <td class="num"><span style="color: #4ade80">+2,802</span></td>
+          <td class="num"><span style="color: #4ade80">+4,084</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Warlock_Destruction_Diabolist.html" target="_blank" rel="noopener" class="spec-link" style="color: #8788EE">MID1_Warlock_Destruction_Diabolist</a></td>
+          <td class="num">107,190</td>
+          <td class="num">108,129</td>
+          <td class="num">110,696</td>
+          <td class="num"><span style="color: #4ade80">+939</span></td>
+          <td class="num"><span style="color: #4ade80">+2,567</span></td>
+          <td class="num"><span style="color: #4ade80">+3,506</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Warlock_Destruction.html" target="_blank" rel="noopener" class="spec-link" style="color: #8788EE">MID1_Warlock_Destruction</a></td>
+          <td class="num">105,892</td>
+          <td class="num">107,222</td>
+          <td class="num">109,532</td>
+          <td class="num"><span style="color: #4ade80">+1,330</span></td>
+          <td class="num"><span style="color: #4ade80">+2,310</span></td>
+          <td class="num"><span style="color: #4ade80">+3,640</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Warlock_Affliction.html" target="_blank" rel="noopener" class="spec-link" style="color: #8788EE">MID1_Warlock_Affliction</a></td>
+          <td class="num">101,710</td>
+          <td class="num">103,568</td>
+          <td class="num">104,821</td>
+          <td class="num"><span style="color: #4ade80">+1,858</span></td>
+          <td class="num"><span style="color: #4ade80">+1,253</span></td>
+          <td class="num"><span style="color: #4ade80">+3,111</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Mage_Fire.html" target="_blank" rel="noopener" class="spec-link" style="color: #3FC7EB">MID1_Mage_Fire</a></td>
+          <td class="num">93,679</td>
+          <td class="num">98,547</td>
+          <td class="num">103,173</td>
+          <td class="num"><span style="color: #4ade80">+4,868</span></td>
+          <td class="num"><span style="color: #4ade80">+4,626</span></td>
+          <td class="num"><span style="color: #4ade80">+9,494</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Warlock_Affliction_Hellcaller.html" target="_blank" rel="noopener" class="spec-link" style="color: #8788EE">MID1_Warlock_Affliction_Hellcaller</a></td>
+          <td class="num">95,458</td>
+          <td class="num">98,006</td>
+          <td class="num">99,926</td>
+          <td class="num"><span style="color: #4ade80">+2,548</span></td>
+          <td class="num"><span style="color: #4ade80">+1,920</span></td>
+          <td class="num"><span style="color: #4ade80">+4,468</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Mage_Fire_Frostfire.html" target="_blank" rel="noopener" class="spec-link" style="color: #3FC7EB">MID1_Mage_Fire_Frostfire</a></td>
+          <td class="num">93,066</td>
+          <td class="num">96,744</td>
+          <td class="num">99,462</td>
+          <td class="num"><span style="color: #4ade80">+3,678</span></td>
+          <td class="num"><span style="color: #4ade80">+2,718</span></td>
+          <td class="num"><span style="color: #4ade80">+6,396</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Mage_Frost_Frostfire.html" target="_blank" rel="noopener" class="spec-link" style="color: #3FC7EB">MID1_Mage_Frost_Frostfire</a></td>
+          <td class="num">92,653</td>
+          <td class="num">94,503</td>
+          <td class="num">96,195</td>
+          <td class="num"><span style="color: #4ade80">+1,850</span></td>
+          <td class="num"><span style="color: #4ade80">+1,692</span></td>
+          <td class="num"><span style="color: #4ade80">+3,542</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Priest_Shadow_Archon.html" target="_blank" rel="noopener" class="spec-link" style="color: #FFFFFF">MID1_Priest_Shadow_Archon</a></td>
+          <td class="num">84,806</td>
+          <td class="num">86,792</td>
+          <td class="num">93,881</td>
+          <td class="num"><span style="color: #4ade80">+1,986</span></td>
+          <td class="num"><span style="color: #4ade80">+7,089</span></td>
+          <td class="num"><span style="color: #4ade80">+9,075</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Mage_Arcane.html" target="_blank" rel="noopener" class="spec-link" style="color: #3FC7EB">MID1_Mage_Arcane</a></td>
+          <td class="num">88,161</td>
+          <td class="num">90,539</td>
+          <td class="num">91,289</td>
+          <td class="num"><span style="color: #4ade80">+2,378</span></td>
+          <td class="num"><span style="color: #4ade80">+750</span></td>
+          <td class="num"><span style="color: #4ade80">+3,128</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Priest_Shadow.html" target="_blank" rel="noopener" class="spec-link" style="color: #FFFFFF">MID1_Priest_Shadow</a></td>
+          <td class="num">81,330</td>
+          <td class="num">84,201</td>
+          <td class="num">90,030</td>
+          <td class="num"><span style="color: #4ade80">+2,871</span></td>
+          <td class="num"><span style="color: #4ade80">+5,829</span></td>
+          <td class="num"><span style="color: #4ade80">+8,700</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Mage_Arcane_Sunfury.html" target="_blank" rel="noopener" class="spec-link" style="color: #3FC7EB">MID1_Mage_Arcane_Sunfury</a></td>
+          <td class="num">80,415</td>
+          <td class="num">82,607</td>
+          <td class="num">83,359</td>
+          <td class="num"><span style="color: #4ade80">+2,192</span></td>
+          <td class="num"><span style="color: #4ade80">+752</span></td>
+          <td class="num"><span style="color: #4ade80">+2,944</span></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="table-section">
+      <h2>Leather</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Spec</th>
+              <th class="num">0p DPS</th>
+              <th class="num">2p DPS</th>
+              <th class="num">4p DPS</th>
+              <th class="num">0p → 2p</th>
+              <th class="num">2p → 4p</th>
+              <th class="num">0p → 4p</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><a href="MID1_Demon_Hunter_Devourer.html" target="_blank" rel="noopener" class="spec-link" style="color: #A330C9">MID1_Demon_Hunter_Devourer</a></td>
+          <td class="num">110,639</td>
+          <td class="num">112,820</td>
+          <td class="num">116,031</td>
+          <td class="num"><span style="color: #4ade80">+2,181</span></td>
+          <td class="num"><span style="color: #4ade80">+3,211</span></td>
+          <td class="num"><span style="color: #4ade80">+5,392</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Demon_Hunter_Devourer_Void-Scarred.html" target="_blank" rel="noopener" class="spec-link" style="color: #A330C9">MID1_Demon_Hunter_Devourer_Void-Scarred</a></td>
+          <td class="num">111,728</td>
+          <td class="num">113,467</td>
+          <td class="num">115,063</td>
+          <td class="num"><span style="color: #4ade80">+1,739</span></td>
+          <td class="num"><span style="color: #4ade80">+1,596</span></td>
+          <td class="num"><span style="color: #4ade80">+3,335</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Druid_Feral.html" target="_blank" rel="noopener" class="spec-link" style="color: #FF7C0A">MID1_Druid_Feral</a></td>
+          <td class="num">103,365</td>
+          <td class="num">106,238</td>
+          <td class="num">109,238</td>
+          <td class="num"><span style="color: #4ade80">+2,873</span></td>
+          <td class="num"><span style="color: #4ade80">+3,000</span></td>
+          <td class="num"><span style="color: #4ade80">+5,873</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Rogue_Outlaw.html" target="_blank" rel="noopener" class="spec-link" style="color: #FFF468">MID1_Rogue_Outlaw</a></td>
+          <td class="num">101,341</td>
+          <td class="num">103,113</td>
+          <td class="num">106,519</td>
+          <td class="num"><span style="color: #4ade80">+1,772</span></td>
+          <td class="num"><span style="color: #4ade80">+3,406</span></td>
+          <td class="num"><span style="color: #4ade80">+5,178</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Demon_Hunter_Havoc.html" target="_blank" rel="noopener" class="spec-link" style="color: #A330C9">MID1_Demon_Hunter_Havoc</a></td>
+          <td class="num">97,445</td>
+          <td class="num">101,013</td>
+          <td class="num">104,660</td>
+          <td class="num"><span style="color: #4ade80">+3,568</span></td>
+          <td class="num"><span style="color: #4ade80">+3,647</span></td>
+          <td class="num"><span style="color: #4ade80">+7,215</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Monk_Windwalker.html" target="_blank" rel="noopener" class="spec-link" style="color: #00FF98">MID1_Monk_Windwalker</a></td>
+          <td class="num">102,755</td>
+          <td class="num">103,498</td>
+          <td class="num">104,102</td>
+          <td class="num"><span style="color: #4ade80">+743</span></td>
+          <td class="num"><span style="color: #4ade80">+604</span></td>
+          <td class="num"><span style="color: #4ade80">+1,347</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Monk_Windwalker_Conduit.html" target="_blank" rel="noopener" class="spec-link" style="color: #00FF98">MID1_Monk_Windwalker_Conduit</a></td>
+          <td class="num">98,205</td>
+          <td class="num">99,661</td>
+          <td class="num">102,453</td>
+          <td class="num"><span style="color: #4ade80">+1,456</span></td>
+          <td class="num"><span style="color: #4ade80">+2,792</span></td>
+          <td class="num"><span style="color: #4ade80">+4,248</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Rogue_Outlaw_Trickster.html" target="_blank" rel="noopener" class="spec-link" style="color: #FFF468">MID1_Rogue_Outlaw_Trickster</a></td>
+          <td class="num">96,678</td>
+          <td class="num">98,106</td>
+          <td class="num">101,153</td>
+          <td class="num"><span style="color: #4ade80">+1,428</span></td>
+          <td class="num"><span style="color: #4ade80">+3,047</span></td>
+          <td class="num"><span style="color: #4ade80">+4,475</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Rogue_Subtlety.html" target="_blank" rel="noopener" class="spec-link" style="color: #FFF468">MID1_Rogue_Subtlety</a></td>
+          <td class="num">84,157</td>
+          <td class="num">91,719</td>
+          <td class="num">95,507</td>
+          <td class="num"><span style="color: #4ade80">+7,562</span></td>
+          <td class="num"><span style="color: #4ade80">+3,788</span></td>
+          <td class="num"><span style="color: #4ade80">+11,350</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Monk_Brewmaster.html" target="_blank" rel="noopener" class="spec-link" style="color: #00FF98">MID1_Monk_Brewmaster</a></td>
+          <td class="num">88,021</td>
+          <td class="num">88,620</td>
+          <td class="num">89,871</td>
+          <td class="num"><span style="color: #4ade80">+599</span></td>
+          <td class="num"><span style="color: #4ade80">+1,251</span></td>
+          <td class="num"><span style="color: #4ade80">+1,850</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Demon_Hunter_Vengeance.html" target="_blank" rel="noopener" class="spec-link" style="color: #A330C9">MID1_Demon_Hunter_Vengeance</a></td>
+          <td class="num">60,911</td>
+          <td class="num">62,199</td>
+          <td class="num">63,116</td>
+          <td class="num"><span style="color: #4ade80">+1,288</span></td>
+          <td class="num"><span style="color: #4ade80">+917</span></td>
+          <td class="num"><span style="color: #4ade80">+2,205</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Demon_Hunter_Vengeance_Aldrachi_Reaver.html" target="_blank" rel="noopener" class="spec-link" style="color: #A330C9">MID1_Demon_Hunter_Vengeance_Aldrachi_Reaver</a></td>
+          <td class="num">52,436</td>
+          <td class="num">54,278</td>
+          <td class="num">55,305</td>
+          <td class="num"><span style="color: #4ade80">+1,842</span></td>
+          <td class="num"><span style="color: #4ade80">+1,027</span></td>
+          <td class="num"><span style="color: #4ade80">+2,869</span></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="table-section">
+      <h2>Mail</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Spec</th>
+              <th class="num">0p DPS</th>
+              <th class="num">2p DPS</th>
+              <th class="num">4p DPS</th>
+              <th class="num">0p → 2p</th>
+              <th class="num">2p → 4p</th>
+              <th class="num">0p → 4p</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><a href="MID1_Evoker_Devastation.html" target="_blank" rel="noopener" class="spec-link" style="color: #33937F">MID1_Evoker_Devastation</a></td>
+          <td class="num">108,637</td>
+          <td class="num">111,822</td>
+          <td class="num">115,543</td>
+          <td class="num"><span style="color: #4ade80">+3,185</span></td>
+          <td class="num"><span style="color: #4ade80">+3,721</span></td>
+          <td class="num"><span style="color: #4ade80">+6,906</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Shaman_Elemental.html" target="_blank" rel="noopener" class="spec-link" style="color: #0070DD">MID1_Shaman_Elemental</a></td>
+          <td class="num">104,900</td>
+          <td class="num">109,780</td>
+          <td class="num">114,983</td>
+          <td class="num"><span style="color: #4ade80">+4,880</span></td>
+          <td class="num"><span style="color: #4ade80">+5,203</span></td>
+          <td class="num"><span style="color: #4ade80">+10,083</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Evoker_Devastation_FS.html" target="_blank" rel="noopener" class="spec-link" style="color: #33937F">MID1_Evoker_Devastation_FS</a></td>
+          <td class="num">99,784</td>
+          <td class="num">103,352</td>
+          <td class="num">105,107</td>
+          <td class="num"><span style="color: #4ade80">+3,568</span></td>
+          <td class="num"><span style="color: #4ade80">+1,755</span></td>
+          <td class="num"><span style="color: #4ade80">+5,323</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Hunter_Marksmanship.html" target="_blank" rel="noopener" class="spec-link" style="color: #AAD372">MID1_Hunter_Marksmanship</a></td>
+          <td class="num">100,247</td>
+          <td class="num">102,143</td>
+          <td class="num">103,645</td>
+          <td class="num"><span style="color: #4ade80">+1,896</span></td>
+          <td class="num"><span style="color: #4ade80">+1,502</span></td>
+          <td class="num"><span style="color: #4ade80">+3,398</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Hunter_Survival.html" target="_blank" rel="noopener" class="spec-link" style="color: #AAD372">MID1_Hunter_Survival</a></td>
+          <td class="num">95,100</td>
+          <td class="num">96,858</td>
+          <td class="num">98,640</td>
+          <td class="num"><span style="color: #4ade80">+1,758</span></td>
+          <td class="num"><span style="color: #4ade80">+1,782</span></td>
+          <td class="num"><span style="color: #4ade80">+3,540</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Hunter_Survival_PL_DW.html" target="_blank" rel="noopener" class="spec-link" style="color: #AAD372">MID1_Hunter_Survival_PL_DW</a></td>
+          <td class="num">93,334</td>
+          <td class="num">94,005</td>
+          <td class="num">95,094</td>
+          <td class="num"><span style="color: #4ade80">+671</span></td>
+          <td class="num"><span style="color: #4ade80">+1,089</span></td>
+          <td class="num"><span style="color: #4ade80">+1,760</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Shaman_Enhancement.html" target="_blank" rel="noopener" class="spec-link" style="color: #0070DD">MID1_Shaman_Enhancement</a></td>
+          <td class="num">89,110</td>
+          <td class="num">91,328</td>
+          <td class="num">93,718</td>
+          <td class="num"><span style="color: #4ade80">+2,218</span></td>
+          <td class="num"><span style="color: #4ade80">+2,390</span></td>
+          <td class="num"><span style="color: #4ade80">+4,608</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Hunter_Beast_Mastery.html" target="_blank" rel="noopener" class="spec-link" style="color: #AAD372">MID1_Hunter_Beast_Mastery</a></td>
+          <td class="num">83,587</td>
+          <td class="num">87,261</td>
+          <td class="num">89,785</td>
+          <td class="num"><span style="color: #4ade80">+3,674</span></td>
+          <td class="num"><span style="color: #4ade80">+2,524</span></td>
+          <td class="num"><span style="color: #4ade80">+6,198</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Shaman_Enhancement_Stormbringer.html" target="_blank" rel="noopener" class="spec-link" style="color: #0070DD">MID1_Shaman_Enhancement_Stormbringer</a></td>
+          <td class="num">78,859</td>
+          <td class="num">81,059</td>
+          <td class="num">83,647</td>
+          <td class="num"><span style="color: #4ade80">+2,200</span></td>
+          <td class="num"><span style="color: #4ade80">+2,588</span></td>
+          <td class="num"><span style="color: #4ade80">+4,788</span></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="table-section">
+      <h2>Plate</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Spec</th>
+              <th class="num">0p DPS</th>
+              <th class="num">2p DPS</th>
+              <th class="num">4p DPS</th>
+              <th class="num">0p → 2p</th>
+              <th class="num">2p → 4p</th>
+              <th class="num">0p → 4p</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td><a href="MID1_Death_Knight_Unholy.html" target="_blank" rel="noopener" class="spec-link" style="color: #C41E3A">MID1_Death_Knight_Unholy</a></td>
+          <td class="num">105,274</td>
+          <td class="num">106,794</td>
+          <td class="num">109,997</td>
+          <td class="num"><span style="color: #4ade80">+1,520</span></td>
+          <td class="num"><span style="color: #4ade80">+3,203</span></td>
+          <td class="num"><span style="color: #4ade80">+4,723</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Death_Knight_Frost.html" target="_blank" rel="noopener" class="spec-link" style="color: #C41E3A">MID1_Death_Knight_Frost</a></td>
+          <td class="num">101,240</td>
+          <td class="num">102,559</td>
+          <td class="num">107,736</td>
+          <td class="num"><span style="color: #4ade80">+1,319</span></td>
+          <td class="num"><span style="color: #4ade80">+5,177</span></td>
+          <td class="num"><span style="color: #4ade80">+6,496</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Death_Knight_Unholy_San'layn.html" target="_blank" rel="noopener" class="spec-link" style="color: #C41E3A">MID1_Death_Knight_Unholy_San'layn</a></td>
+          <td class="num">100,699</td>
+          <td class="num">102,722</td>
+          <td class="num">106,097</td>
+          <td class="num"><span style="color: #4ade80">+2,023</span></td>
+          <td class="num"><span style="color: #4ade80">+3,375</span></td>
+          <td class="num"><span style="color: #4ade80">+5,398</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Death_Knight_Frost_Rider.html" target="_blank" rel="noopener" class="spec-link" style="color: #C41E3A">MID1_Death_Knight_Frost_Rider</a></td>
+          <td class="num">97,838</td>
+          <td class="num">99,046</td>
+          <td class="num">104,234</td>
+          <td class="num"><span style="color: #4ade80">+1,208</span></td>
+          <td class="num"><span style="color: #4ade80">+5,188</span></td>
+          <td class="num"><span style="color: #4ade80">+6,396</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Warrior_Protection.html" target="_blank" rel="noopener" class="spec-link" style="color: #C69B6D">MID1_Warrior_Protection</a></td>
+          <td class="num">65,378</td>
+          <td class="num">68,521</td>
+          <td class="num">70,343</td>
+          <td class="num"><span style="color: #4ade80">+3,143</span></td>
+          <td class="num"><span style="color: #4ade80">+1,822</span></td>
+          <td class="num"><span style="color: #4ade80">+4,965</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Paladin_Protection.html" target="_blank" rel="noopener" class="spec-link" style="color: #F48CBA">MID1_Paladin_Protection</a></td>
+          <td class="num">67,735</td>
+          <td class="num">68,613</td>
+          <td class="num">69,863</td>
+          <td class="num"><span style="color: #4ade80">+878</span></td>
+          <td class="num"><span style="color: #4ade80">+1,250</span></td>
+          <td class="num"><span style="color: #4ade80">+2,128</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Death_Knight_Blood.html" target="_blank" rel="noopener" class="spec-link" style="color: #C41E3A">MID1_Death_Knight_Blood</a></td>
+          <td class="num">59,808</td>
+          <td class="num">61,713</td>
+          <td class="num">63,773</td>
+          <td class="num"><span style="color: #4ade80">+1,905</span></td>
+          <td class="num"><span style="color: #4ade80">+2,060</span></td>
+          <td class="num"><span style="color: #4ade80">+3,965</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Paladin_Protection_Lightsmith.html" target="_blank" rel="noopener" class="spec-link" style="color: #F48CBA">MID1_Paladin_Protection_Lightsmith</a></td>
+          <td class="num">53,536</td>
+          <td class="num">54,389</td>
+          <td class="num">55,443</td>
+          <td class="num"><span style="color: #4ade80">+853</span></td>
+          <td class="num"><span style="color: #4ade80">+1,054</span></td>
+          <td class="num"><span style="color: #4ade80">+1,907</span></td>
+        </tr>
+        <tr>
+          <td><a href="MID1_Death_Knight_Blood_Deathbringer.html" target="_blank" rel="noopener" class="spec-link" style="color: #C41E3A">MID1_Death_Knight_Blood_Deathbringer</a></td>
+          <td class="num">50,663</td>
+          <td class="num">52,551</td>
+          <td class="num">53,854</td>
+          <td class="num"><span style="color: #4ade80">+1,888</span></td>
+          <td class="num"><span style="color: #4ade80">+1,303</span></td>
+          <td class="num"><span style="color: #4ade80">+3,191</span></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+      
+      const parseValue = (v) => {
+        const cleanStr = v.replace(/[,+\s]/g, '').trim();
+        const num = parseFloat(cleanStr);
+        return isNaN(num) ? v : num;
+      };
+
+      const comparer = (idx, asc) => (a, b) => {
+        const v1 = parseValue(getCellValue(asc ? a : b, idx));
+        const v2 = parseValue(getCellValue(asc ? b : a, idx));
+        if (v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)) {
+          return v1 - v2;
+        }
+        return v1.toString().localeCompare(v2);
+      };
+
+      document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+        const table = th.closest('table');
+        const tbody = table.querySelector('tbody');
+        if (!tbody) return;
+        
+        table.querySelectorAll('th').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+        
+        let isAsc;
+        if (th.dataset.sortAsc === undefined) {
+          isAsc = !th.classList.contains('num');
+        } else {
+          isAsc = th.dataset.sortAsc !== 'true';
+        }
+        th.dataset.sortAsc = isAsc;
+        th.classList.add(isAsc ? 'sort-asc' : 'sort-desc');
+
+        Array.from(tbody.querySelectorAll('tr'))
+          .sort(comparer(Array.from(th.parentNode.children).indexOf(th), isAsc))
+          .forEach(tr => tbody.appendChild(tr));
+      })));
+    });
+  </script>
+</body>
+</html>

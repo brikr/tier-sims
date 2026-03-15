@@ -12,7 +12,7 @@ RUN pip3 install --no-cache-dir --break-system-packages -r requirements.txt
 # Copy application files
 COPY . .
 
-# Ensure the output directory exists
-RUN mkdir -p /app/output
+# Ensure the docs directory exists
+RUN mkdir -p /app/docs
 
-ENTRYPOINT ["python3", "-u", "main.py"]
+ENTRYPOINT ["sh", "-c", "python3 -u main.py && python3 -u generate_site.py"]
