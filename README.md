@@ -1,4 +1,4 @@
-# Tier Sims
+# [Tier Sims](https://brikr.github.io/tier-sims/)
 
 A command-line application that uses the SimulationCraft Docker image to run sims for World of Warcraft tier sets, comparing spec performance with and without tier set bonuses.
 
