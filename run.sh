@@ -22,6 +22,7 @@ else
   echo "Clearing old results..."
   rm -rf "$DIR/docs"
   mkdir -p "$DIR/docs"
+  touch "$DIR/docs/.nojekyll"
 
   echo "Starting the simulation..."
   # Run the container, automatically removing it after exit (--rm)
