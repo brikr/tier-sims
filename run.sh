@@ -27,6 +27,8 @@ else
   echo "Starting the simulation..."
   # Run the container, automatically removing it after exit (--rm)
   # Mount the local "docs" directory to "/app/docs" inside the container so we can access the generated results
-  docker run --rm -v "$DIR/docs:/app/docs" tier-sims
+  docker run --rm \
+    -v "$DIR/docs:/app/docs" \
+    tier-sims
   echo "Simulation completed successfully! You can find the results in the 'docs' directory."
 fi
